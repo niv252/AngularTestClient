@@ -1,0 +1,39 @@
+<div id="registration">
+  <table>
+    <tr>
+      <td>
+        <label>Id</label>
+      </td>
+      <td>
+        <input [(ngModel)]="id"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label>Full Name</label>
+      </td>
+      <td>
+        <input [(ngModel)]="name"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label>Personal Number</label>
+      </td>
+      <td>
+        <input [(ngModel)]="personalNumber"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label>Nationality</label>
+      </td>
+      <td>
+        <input [(ngModel)]="nationality"/>
+      </td>
+    </tr>
+    <button (click)="registerUser()">Registration</button>
+    <button (click)="updateUser()">Update</button>
+  </table>
+  {{title}}
+</div>
